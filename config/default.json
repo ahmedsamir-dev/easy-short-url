@@ -1,0 +1,4 @@
+{
+  "mongoURL": "mongodb+srv://samra:samra22@cluster0.rnvjf.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "hostName": "http://localhost:5000"
+}
