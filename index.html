@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EasyShortURL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="EasyShortURL" content="This website is used to make short URL to use in your blog">
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+      <div class="main">
+      <div class="container">
+
+        <div class="nav">
+
+            <div class="brand">
+              <span>EasyShort</span>
+            </div>
+
+            <div class="menu">
+              <ul>
+                <a href="#"><li class="active2">Home</li></a>
+                <a href="#"><li>How it work</li></a>
+                <a href="#"><li>Contact</li></a>
+              </ul>
+            </div>
+
+        </div>
+
+
+        <div class="main-text">
+          <h1>Short links, big results</h1>
+          <p>A URL shortner built with powerful tools to help you grow and protect your brand </p>
+        </div>
+
+        <div class="inbox">
+
+          <div class="data">
+
+            <input type="text" name="getURL" placeholder="Enter Your URL here">
+            <button class="window" onclick="togglePopup()"><i class="fas fa-link"></i></button>
+
+
+             </div>
+               <span>By using our services you accept the terms and polices</span>
+            </div>
+
+      </div>
+
+
+        </div>
+
+        <div class="popup" id="popup-1">
+<div class="overlay"></div>
+<div class="content">
+  <div class="close-btn" onclick="togglePopup()">&times;</div>
+  <h1>Your Shorted Link</h1>
+  <textarea id="shorted">https://www.google.com/</textarea>
+  <button id="copyBtn" type="button" name="button" onclick="copy()">copy</button>
+</div>
+</div>
+
+
+
+      </div>
+
+      </div>
+
+    <script type="text/javascript" src="JS/main.js"></script>
+  </body>
+</html>
